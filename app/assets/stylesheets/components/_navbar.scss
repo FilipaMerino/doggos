@@ -1,12 +1,33 @@
-.navbar-lewagon {
-  justify-content: space-between;
-  background: white;
+.navbar{
+  padding: 20px;
 }
 
-.navbar-lewagon .navbar-collapse {
-  flex-grow: 0;
+
+.navbar_logo_lettering{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+
 }
 
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
+.link_div{
+  display: flex;
+  gap: 20px;
+}
+
+
+li a {
+  font-family: "Open Sans", sans-serif;
+  color: #597E52;
+  font-size: 15px!important;
+  font-weight: 600;
+}
+
+
+.btn span {
+  font-family: "Merriweather", serif;
+  font-size: 18px;
+  color: #597E52;
+
 }
