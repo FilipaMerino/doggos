@@ -101,13 +101,18 @@
   margin-top: 20px;
   gap: 20px;
 }
-
+// SERVICE CARDS
 .card{
   width: 18rem;
   border-radius:15px!important;
   box-shadow: 5px 10px 37px 0px rgba(0,0,0,0.3);
   -webkit-box-shadow: 5px 10px 37px 0px rgba(0,0,0,0.3);
   -moz-box-shadow: 5px 10px 37px 0px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease; /* Adding transition effect */
+}
+
+.card:hover {
+  transform: scale(1.05); /* Scale the card up slightly on hover */
 }
 
 .service_card_link{
