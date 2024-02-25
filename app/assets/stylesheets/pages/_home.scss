@@ -9,8 +9,7 @@
 }
 
 
-
-p{
+.left_sections_parapragh{
   font-family:'Open Sans', 'Helvetica Neue', sans-serif;
   font-weight: 600;
 }
@@ -68,18 +67,77 @@ p{
 
 .card-product-infos h2 {
   font-weight: bold;
+
 }
 
 
+
+// Services
+
+.services_section{
+  background-color: rgba(217, 217, 217, 0.5);
+  padding: 40px;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.services_section_center{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+
+
+.service_cards{
+  display: flex;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.card{
+  width: 18rem;
+  box-shadow: 5px 10px 37px 0px rgba(0,0,0,0.3);
+  -webkit-box-shadow: 5px 10px 37px 0px rgba(0,0,0,0.3);
+  -moz-box-shadow: 5px 10px 37px 0px rgba(0,0,0,0.3);
+}
+
+.service_card_link{
+  display: flex;
+  gap: 10px;
+  font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 12px;
+}
+
+.service_card_link:hover{
+  text-decoration: underline;
+}
+
+.service_card_title{
+  font-size: 13px!important;
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.service_card_paragraph{
+  font-size: 20px!important;
+  font-family: "Merriweather", serif;
+  color: #597E52;
+}
+
+
+
+
+
 // blog
-
-
 .blog_section {
   padding: 40px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   // background-color: #D9D9D9;
-  background-color: rgba(217, 217, 217, 0.5);
+  // background-color: rgba(217, 217, 217, 0.5);
   height: 400px;
 }
 
