@@ -104,7 +104,7 @@
 // SERVICE CARDS
 .card{
   width: 18rem;
-  border-radius:15px!important;
+  border-radius:10px!important;
   box-shadow: 5px 10px 37px 0px rgba(0,0,0,0.3);
   -webkit-box-shadow: 5px 10px 37px 0px rgba(0,0,0,0.3);
   -moz-box-shadow: 5px 10px 37px 0px rgba(0,0,0,0.3);
@@ -154,12 +154,11 @@
   width: 380px;
 }
 
-
 .blog_section button {
   background-color: #597E52;
   color: white;
   padding: 10px;
-  margin-top: 10px;
+  margin-top: 20px;
   border-radius: 10px;
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
@@ -172,4 +171,43 @@
 .blog_section button:hover {
   background-color: white;
   color: #597E52;
+}
+
+// blog section cards
+
+.card-product {
+  overflow: hidden;
+  height: 120px;
+  background: white;
+  display: flex;
+  align-items: center;
+  box-shadow: 5px 10px 37px 0px rgba(0,0,0,0.3);
+  -webkit-box-shadow: 5px 10px 37px 0px rgba(0,0,0,0.3);
+  -moz-box-shadow: 5px 10px 37px 0px rgba(0,0,0,0.3);
+  border-radius:10px!important;
+
+}
+
+.card-product img {
+  height: 100%;
+  width: 120px;
+  object-fit: cover;
+}
+
+.card-product h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.card-product p {
+  font-size: 12px;
+  line-height: 1.4;
+  opacity: .7;
+  margin-bottom: 0;
+  margin-top: 8px;
+}
+
+.card-product .card-product-infos {
+  padding: 16px;
 }
