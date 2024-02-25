@@ -275,14 +275,15 @@
   flex-direction: column;
   gap: 20px;
   width: 40rem;
-}
+  font-family: "Open Sans", sans-serif;
 
+}
 
 .input_with_label{
   display: flex;
   flex-direction: column;
+  font-family: "Open Sans", sans-serif;
 }
-
 
 .question_input_box button {
   background-color: #597E52;
