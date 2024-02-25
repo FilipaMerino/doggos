@@ -73,7 +73,6 @@
 
 
 // Services
-
 .services_section{
   background-color: rgba(217, 217, 217, 0.5);
   padding: 40px;
@@ -88,9 +87,14 @@
   display: flex;
   flex-direction: column;
   align-content: center;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
-
+.services_section_center h1{
+ font-size: 40px;
+ color: #597E52;
+}
 
 .service_cards{
   display: flex;
@@ -100,6 +104,7 @@
 
 .card{
   width: 18rem;
+  border-radius:15px!important;
   box-shadow: 5px 10px 37px 0px rgba(0,0,0,0.3);
   -webkit-box-shadow: 5px 10px 37px 0px rgba(0,0,0,0.3);
   -moz-box-shadow: 5px 10px 37px 0px rgba(0,0,0,0.3);
@@ -126,10 +131,6 @@
   font-family: "Merriweather", serif;
   color: #597E52;
 }
-
-
-
-
 
 // blog
 .blog_section {
