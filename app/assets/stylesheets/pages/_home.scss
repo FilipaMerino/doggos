@@ -172,7 +172,6 @@
 
 .blog_section button:hover {
   transform: scale(1.05); /* Scale the card up slightly on hover */
-
 }
 
 // blog section cards
@@ -216,4 +215,90 @@
 
 .card-product .card-product-infos {
   padding: 16px;
+}
+
+// TESTIMONIALS
+
+.testimonials_section{
+  padding: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: rgba(217, 217, 217, 0.5);
+  min-height: 400px;
+  align-items: center;
+}
+
+
+.testimonial_cards{
+  display: flex;
+  gap: 15px;
+}
+
+.testimonial_card_header{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.testimonial_card_header h2{
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+}
+
+.stars{
+  display: flex;
+  color: #B99470;
+}
+
+.testimonial_card_body{
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 14px;
+}
+
+
+
+// QUESTIONS SECTION
+
+.questions_section{
+  background-color: white;
+  padding: 40px;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.question_input_box{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 40rem;
+}
+
+
+.input_with_label{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.question_input_box button {
+  background-color: #597E52;
+  color: white;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 10px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  width: 40rem;
+  box-shadow: 5px 10px 37px 0px rgba(0,0,0,0.3);
+  -webkit-box-shadow: 5px 10px 37px 0px rgba(0,0,0,0.3);
+  -moz-box-shadow: 5px 10px 37px 0px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease; /* Adding transition effect */
+}
+
+.question_input_box button:hover {
+  transform: scale(1.05); /* Scale the card up slightly on hover */
 }
