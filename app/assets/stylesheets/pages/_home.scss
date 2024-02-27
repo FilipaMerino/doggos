@@ -244,6 +244,15 @@
   font-size: 14px;
 }
 
+.testimonials_section .card{
+  transition: none;
+}
+
+.testimonials_section .card:hover{
+    transform: none;
+  }
+
+
 // QUESTIONS SECTION
 
 .questions_section {
@@ -289,6 +298,7 @@
   transform: scale(1.05); /* Scale the card up slightly on hover */
 }
 
+// MEDIA QUERIES
 @media (max-width: 992px) {
   .home_titles {
     margin-bottom: 5px;
@@ -312,6 +322,16 @@
     overflow: hidden;
   }
 
+  .card {
+    box-shadow: none;
+    border: none;
+    transition: none;
+  }
+
+  .card:hover {
+    transform: none;
+  }
+
   // BLOG SECTION
 
   .blog_section {
@@ -326,6 +346,24 @@
     overflow: hidden;
   }
 
+  .blog_section button{
+    box-shadow: none;
+    transition: none;
+  }
+
+  .blog_section button:hover{
+    transform: none;
+  }
+
+  .card-product{
+    transition: none;
+  }
+
+  .card-product:hover{
+    transform: none;
+  }
+
+
   // TESTIMONIALS
 
   .testimonials_section {
@@ -339,6 +377,8 @@
     justify-content: center;
   }
 
+
+// ASK A QUESTION
   .question_input_box {
     width: 20rem;
   }
@@ -425,6 +465,8 @@
     justify-content: center;
   }
 
+
+// ASK A QUESTION
   .question_input_box {
     width: 20rem;
   }
