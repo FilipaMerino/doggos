@@ -9,11 +9,6 @@
 
 
 
-// #footer_styling h1{
-//   font-size: 40px!important;
-// }
-
-
 .footer_styling h1{
   font-size: 25px;
 }
@@ -32,4 +27,34 @@
 .column_footer{
   display: flex;
   flex-direction: column;
+}
+
+
+@media(max-width: 992px) {
+  .footer_styling{
+    grid-template-columns: 1fr;
+    justify-content: center;
+    text-align: center;
+
+  }
+  .column_footer{
+    display: none;
+  }
+  .social_media {
+    margin-top: 10px;
+  }
+}
+
+@media(max-width: 768px) {
+  .footer_styling{
+    grid-template-columns: 1fr;
+    justify-content: center;
+    text-align: center;
+  }
+  .column_footer{
+    display: none;
+  }
+  .social_media {
+    margin-top: 5px;
+  }
 }
