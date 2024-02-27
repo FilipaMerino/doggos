@@ -130,11 +130,6 @@
     width: 16rem;
   }
 }
-
-
-
-
-
 .card:hover {
   transform: scale(1.05); /* Scale the card up slightly on hover */
 }
@@ -279,6 +274,30 @@
   align-items: center;
 }
 
+@media(max-width: 992px) {
+  .testimonials_section {
+    grid-template-columns: 1fr;
+    min-height: 600px;
+    text-align: center;
+
+  }
+   .testimonial_cards{
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media(max-width: 768px) {
+  .testimonials_section{
+    grid-template-columns: 1fr;
+    min-height: 600px;
+    text-align: center;
+  }
+  .testimonial_cards{
+    flex-direction: column;
+    justify-content: center;
+  }
+}
 
 .testimonial_cards{
   display: flex;
