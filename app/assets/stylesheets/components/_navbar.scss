@@ -17,7 +17,7 @@
 }
 
 li a {
-  font-family: "Open Sans", sans-serif;
+  font-family: $body-font;
   font-size: 15px!important;
   color: $green;
   // font-weight:600;
@@ -27,10 +27,8 @@ li a {
 
 span {
   color: $green;
-  font-family: "Merriweather", serif;
+  font-family: $headers-font;
   font-size: 18px;
-  // font-family: "Comfortaa", sans-serif;
-  // font-weight:600;
 }
 
 .blog_go a {
@@ -38,10 +36,10 @@ span {
 }
 
 .button_navbar{
-  border: solid 1.5px black;
+  border: solid 1.5px $black;
   border-radius: 10px;
   padding: 5px 20px;
-  font-family: "Open Sans", sans-serif;
+  font-family: $body-font;
   font-size: 15px!important;
   color: $green;
 }
