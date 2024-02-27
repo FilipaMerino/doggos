@@ -1,6 +1,6 @@
 // Specific CSS for your home-page
 .home_titles{
-  color: #597E52;
+  color: green;
   font-size: 40px!important;
   margin-bottom: 20px;
   display: flex;
@@ -93,7 +93,7 @@
 
 .services_section_center h1{
  font-size: 40px;
- color: #597E52;
+ color: $green;
 }
 
 .service_cards{
@@ -134,7 +134,7 @@
 .service_card_paragraph{
   font-size: 20px!important;
   font-family: "Merriweather", serif;
-  color: #597E52;
+  color: $green;
 }
 
 // blog
@@ -155,7 +155,7 @@
 }
 
 .blog_section button {
-  background-color: #597E52;
+  background-color: $green;
   color: white;
   padding: 10px;
   margin-top: 20px;
@@ -286,7 +286,7 @@
 }
 
 .question_input_box button {
-  background-color: #597E52;
+  background-color: $green;
   color: white;
   padding: 10px;
   margin-top: 20px;
