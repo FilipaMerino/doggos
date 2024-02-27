@@ -370,6 +370,16 @@
     overflow: hidden;
   }
 
+  .card {
+    box-shadow: none;
+    border: none;
+    transition: none;
+  }
+
+  .card:hover {
+    transform: none;
+  }
+
   // BLOG SECTION
 
   .blog_section {
@@ -383,6 +393,24 @@
     text-align: center;
     overflow: hidden;
   }
+
+  .blog_section button{
+    box-shadow: none;
+    transition: none;
+  }
+
+  .blog_section button:hover{
+    transform: none;
+  }
+
+  .card-product{
+    transition: none;
+  }
+
+  .card-product:hover{
+    transform: none;
+  }
+
 
   // TESTIMONIALS
 
