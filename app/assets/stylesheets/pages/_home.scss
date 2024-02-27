@@ -30,6 +30,42 @@
 
 
 
+@media(max-width: 992px) {
+  .about_section{
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .home_titles{
+    margin-bottom: 5px;
+  }
+  .about_section_right{
+    margin-top: 15px;
+  }
+  .about_card_image {
+  display: none;
+  }
+}
+
+
+@media(max-width: 768px) {
+  .about_section{
+    grid-template-columns: 1fr;
+    text-align: center;
+    height: 600px;
+    align-items: center;
+  }
+  .home_titles{
+    margin-bottom: 5px;
+  }
+  .about_section_right{
+    margin-top: 15px;
+  }
+
+  .about_card_image {
+  display: none;
+  }
+}
+
 .card-product {
   overflow: hidden;
   height: 120px;
@@ -64,7 +100,7 @@
   padding: 16px;
 }
 
-.card-product-infos h2 {
+.about_info_card h2 {
   font-weight: bold;
   font-family: $body-font;
 }
@@ -101,12 +137,14 @@
 @media(max-width: 992px) {
   .service_cards {
    flex-direction: column;
+   overflow: hidden;
   }
 }
 
 @media(max-width: 768px) {
   .service_cards{
     flex-direction: column;
+    overflow: hidden;
   }
 }
 // SERVICE CARDS
@@ -168,6 +206,7 @@
 @media(max-width: 992px) {
   .blog_section {
     grid-template-columns: 1fr;
+    overflow: hidden;
   }
 }
 
@@ -175,6 +214,7 @@
   .blog_section {
     grid-template-columns: 1fr;
     height: 700px;
+    overflow: hidden;
   }
 }
 
@@ -189,6 +229,7 @@
   .blog_section_left {
     align-items: center;
     text-align: center;
+    overflow: hidden;
   }
 }
 
@@ -196,6 +237,7 @@
   .blog_section_left{
     align-items: center;
     text-align: center;
+    overflow: hidden;
   }
 }
 
@@ -279,6 +321,7 @@
     grid-template-columns: 1fr;
     min-height: 600px;
     text-align: center;
+    overflow: hidden;
 
   }
    .testimonial_cards{
@@ -292,6 +335,7 @@
     grid-template-columns: 1fr;
     min-height: 600px;
     text-align: center;
+    overflow: hidden;
   }
   .testimonial_cards{
     flex-direction: column;
@@ -324,8 +368,6 @@
   font-family: $body-font;
   font-size: 14px;
 }
-
-
 
 // QUESTIONS SECTION
 
@@ -372,4 +414,22 @@
 
 .question_input_box button:hover {
   transform: scale(1.05); /* Scale the card up slightly on hover */
+}
+
+
+@media(max-width: 992px) {
+
+}
+
+@media(max-width: 768px) {
+
+  .question_input_box{
+
+    width: 20rem;
+
+  }
+
+  .question_input_box button{
+
+  }
 }
