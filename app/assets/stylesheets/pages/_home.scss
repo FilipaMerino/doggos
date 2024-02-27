@@ -10,7 +10,7 @@
 
 
 .left_sections_parapragh{
-  font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: $body-font;
   font-weight: 600;
 }
 
@@ -58,7 +58,6 @@
   opacity: .7;
   margin-bottom: 0;
   margin-top: 8px;
-
 }
 
 .card-product .card-product-infos {
@@ -67,10 +66,8 @@
 
 .card-product-infos h2 {
   font-weight: bold;
-
+  font-family: $body-font;
 }
-
-
 
 // Services
 .services_section{
@@ -118,7 +115,7 @@
 .service_card_link{
   display: flex;
   gap: 10px;
-  font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family:$body-font;
   font-size: 12px;
 }
 
@@ -128,12 +125,12 @@
 
 .service_card_title{
   font-size: 13px!important;
-  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: $body-font;
 }
 
 .service_card_paragraph{
   font-size: 20px!important;
-  font-family: "Merriweather", serif;
+  font-family: $headers-font;
   color: $green;
 }
 
@@ -142,8 +139,6 @@
   padding: 40px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  // background-color: #D9D9D9;
-  // background-color: rgba(217, 217, 217, 0.5);
   height: 400px;
 }
 
@@ -160,7 +155,7 @@
   padding: 10px;
   margin-top: 20px;
   border-radius: 10px;
-  font-family: "Open Sans", sans-serif;
+  font-family: $body-font;
   font-weight: bold;
   width: 230px;
   box-shadow: 5px 10px 37px 0px rgba(0,0,0,0.3);
@@ -241,7 +236,7 @@
 
 
 .testimonial_card_header h2{
-  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: $body-font;
   font-size: 16px;
 }
 
@@ -251,7 +246,7 @@
 }
 
 .testimonial_card_body{
-  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: $body-font;
   font-size: 14px;
 }
 
@@ -275,14 +270,14 @@
   flex-direction: column;
   gap: 20px;
   width: 40rem;
-  font-family: "Open Sans", sans-serif;
+  font-family: $body-font;
 
 }
 
 .input_with_label{
   display: flex;
   flex-direction: column;
-  font-family: "Open Sans", sans-serif;
+  font-family: $body-font;
 }
 
 .question_input_box button {
@@ -291,7 +286,7 @@
   padding: 10px;
   margin-top: 20px;
   border-radius: 10px;
-  font-family: "Open Sans", sans-serif;
+  font-family: $body-font;
   font-weight: bold;
   width: 40rem;
   box-shadow: 5px 10px 37px 0px rgba(0,0,0,0.3);
