@@ -8,7 +8,7 @@
     </div>
 
       <div class="media_query_navbar_burger_box">
-        <img class="burger_navbar" src="/assets/menu.png" alt="">
+        <img id="burger" class="burger_navbar" src="/assets/menu.png" alt="">
       </div>
 
 
@@ -35,4 +35,34 @@
     </ul>
   </div>
 
+<div id="burger_links" class="not_clicked">
+  <ul>
+    <li>hello</li>
+    <li>World</li>
+  </ul>
 </div>
+
+
+
+
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var burgerImage = document.getElementById('burger');
+    var burgerLinks = document.getElementById('burger_links');
+
+    burgerImage.addEventListener('click', function(event) {
+      // Toggle the class of the burger image
+      burgerImage.classList.toggle('burger_navbar');
+      burgerImage.classList.toggle('no_burger_navbar');
+
+      // Toggle the class of the burger links div
+      burgerLinks.classList.toggle('not_clicked');
+      burgerLinks.classList.toggle('clicked_yes');
+
+    });
+  });
+
+
+</script>
