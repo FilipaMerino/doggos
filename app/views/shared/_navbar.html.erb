@@ -15,7 +15,7 @@
   <div class="links_fullScreen">
     <ul class="link_div">
       <li>
-        <a href="">Q&A</A:mail></a>
+        <a href="">Q&A<></a>
       </li>
 
       <li>
@@ -35,16 +35,21 @@
     </ul>
   </div>
 
-<div id="burger_links" class="not_clicked">
-  <ul>
-    <li>hello</li>
-    <li>World</li>
-  </ul>
-</div>
-
-
-
-
+  <div id="burger_links" class="not_clicked">
+    <div class="links_clicked_styling">
+      <div>
+        <i class="fa-solid fa-xmark" id="close_links"></i>
+      </div>
+      <div>
+        <ul>
+          <li>Q&A</li>
+          <li>About Us</li>
+          <li>Training Services</li>
+          <li>Blog</li>
+        </ul>
+      </div>
+    </div>
+  </div>
 </div>
 
 <script>
@@ -63,6 +68,28 @@
 
     });
   });
+
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    var closeLinks = document.getElementById('close_links');
+    var burgerImage = document.getElementById('burger');
+    var burgerLinks = document.getElementById('burger_links');
+
+    closeLinks.addEventListener('click', function(event) {
+      // Toggle the class of the burger image
+      burgerImage.classList.toggle('burger_navbar');
+      burgerImage.classList.toggle('no_burger_navbar');
+
+      // Toggle the class of the burger links div
+      burgerLinks.classList.toggle('not_clicked');
+      burgerLinks.classList.toggle('clicked_yes');
+
+    });
+  });
+
+
+
 
 
 </script>
