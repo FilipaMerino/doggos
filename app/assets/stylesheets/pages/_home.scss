@@ -368,6 +368,7 @@
 
   .testimonials_section {
     grid-template-columns: 1fr;
+    justify-content: center;
     min-height: 600px;
     text-align: center;
     overflow: hidden;
@@ -375,6 +376,7 @@
   .testimonial_cards {
     flex-direction: column;
     justify-content: center;
+    align-items: center;
   }
 
 
