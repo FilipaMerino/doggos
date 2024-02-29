@@ -52,6 +52,10 @@ span {
 .burger_navbar{
   display: none;
 }
+.no_burger_navbar{
+  display: none;
+}
+
 .not_clicked{
   display: none;
 }
@@ -85,12 +89,26 @@ span {
     display: flex;
     flex-direction: column;
     background-color: white;
+
+  }
+
+  ul {
+    list-style: none;
   }
 
   .not_clicked{
     display: none;
   }
 
-
-
+.links_clicked_styling{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  border: solid 0.5px $black;
+  padding: 15px;
+}
+.fa-regular{
+  
+}
 }
