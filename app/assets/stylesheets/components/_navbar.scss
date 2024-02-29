@@ -49,3 +49,12 @@ span {
 .about_info img {
   width: 70px;
 }
+
+
+
+// MEDIA QUERIES
+@media (max-width: 992px) {
+  .links_fullScreen{
+    display: none;
+  }
+}
