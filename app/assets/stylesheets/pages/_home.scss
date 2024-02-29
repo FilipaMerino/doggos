@@ -316,6 +316,17 @@
   .about_card_image {
     display: none;
   }
+
+  .about_info{
+    flex-direction: column;
+    gap: 10px;
+  }
+  .about_info h2 {
+    margin-bottom: 5px;
+  }
+  .about_info p {
+    width: 20rem;
+  }
   // SERVICES SECTION
   .service_cards {
     flex-direction: column;
