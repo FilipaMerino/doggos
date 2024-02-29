@@ -336,14 +336,19 @@
 
   .blog_section {
     grid-template-columns: 1fr;
-    height: 700px;
+    height: 600px;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
   .blog_section_left {
     align-items: center;
     text-align: center;
     overflow: hidden;
+    margin-bottom: 20px;
   }
 
   .blog_section button{
@@ -381,6 +386,10 @@
 
 
 // ASK A QUESTION
+  .questions_section{
+    min-height: 600px;
+  }
+
   .question_input_box {
     width: 20rem;
   }
