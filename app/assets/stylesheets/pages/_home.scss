@@ -305,7 +305,7 @@
 // MEDIA QUERIES
 @media (max-width: 992px) {
   .home_titles {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
   }
 
   .horizontal_line{
@@ -340,6 +340,9 @@
   }
   .about_info p {
     width: 20rem;
+  }
+  .about_section_left p{
+    margin-bottom: 10px;
   }
   // SERVICES SECTION
   .service_cards {
