@@ -8,6 +8,10 @@
   justify-content: center;
 }
 
+.horizontal_line{
+  display: none;
+}
+
 .left_sections_parapragh {
   font-family: $body-font;
   font-weight: 600;
@@ -302,6 +306,16 @@
 @media (max-width: 992px) {
   .home_titles {
     margin-bottom: 5px;
+  }
+
+  .horizontal_line{
+    border: 2px solid  $green;
+    width: 10rem;
+    display: flex;
+    text-align: center;
+    margin: 12px auto;
+    opacity: 1;
+    border-radius: 50px;
   }
   // ABOUT SECTION
 
