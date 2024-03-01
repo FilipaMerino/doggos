@@ -512,4 +512,34 @@
   .question_input_box button {
     width: 20rem;
   }
+  .left_sections_parapragh{
+    width: 20rem;
+  }
+
+  .blog_section_right .card-product{
+    width: 24rem;
+}
+}
+
+
+
+@media only screen and (max-width: 428px) {
+  .testimonials_section .card{
+    width: 22rem;
+  }
+
+  .left_sections_parapragh{
+    width: 20rem;
+  }
+
+  .blog_section_right .card-product{
+    width: 22rem;
+}
+
+.blog_section_right .card-product-infos{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
 }
