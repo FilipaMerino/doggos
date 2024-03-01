@@ -90,12 +90,6 @@ span {
     padding: 3px;
   }
 
-  .clicked_yes{
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-
-  }
 
   ul {
     list-style: none;
@@ -103,6 +97,11 @@ span {
 
   .not_clicked{
     display: none;
+  }
+  .clicked_yes{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
   }
 
 .links_clicked_styling{
@@ -123,8 +122,12 @@ span {
   position: absolute;
 }
 
+
+
+
 ul li:hover{
   color: $green;
 }
 
 }
+
