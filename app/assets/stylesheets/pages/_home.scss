@@ -593,6 +593,10 @@
     justify-content: center;
     align-items: center;
   }
+
+  .service_cards .card {
+    width: 30rem;
+  }
 }
 
 @media only screen and (max-device-width: 1024px) and (orientation: landscape) {
@@ -602,6 +606,21 @@
   }
 
   .testimonial_cards{
- flex-direction: column;
+    flex-direction: column;
   }
+}
+
+
+@media only screen and (max-device-width: 834px) and (max-device-height: 1194px) {
+  .service_cards .card{
+    width: 25rem;
+   }
+
+   .services_section_center {
+    margin: 0;
+   }
+
+   .testimonial_cards .card{
+    width: 35rem;
+   }
 }
