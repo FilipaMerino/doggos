@@ -611,7 +611,7 @@
 }
 
 
-@media only screen and (max-device-width: 834px) and (max-device-height: 1194px) {
+@media only screen and (max-device-width: 834px) and (max-device-height: 1194px) and (orientation: portrait) {
   .service_cards .card{
     width: 25rem;
    }
@@ -623,4 +623,11 @@
    .testimonial_cards .card{
     width: 35rem;
    }
+}
+
+
+@media only screen and (max-device-width: 1194px) and (max-device-height: 834px) and (orientation: landscape) {
+  .service_cards{
+    width: 70rem;
+  }
 }
