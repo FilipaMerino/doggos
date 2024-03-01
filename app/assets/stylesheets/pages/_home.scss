@@ -521,8 +521,6 @@
 }
 }
 
-
-
 @media only screen and (max-width: 428px) {
   .testimonials_section .card{
     width: 22rem;
@@ -543,7 +541,6 @@
     align-items: flex-start;
   }
 }
-
 
 @media only screen and (max-width: 412px) {
 
@@ -569,7 +566,6 @@
     width: 19rem;
   }
 }
-
 
 @media only screen and (max-device-width: 768px) and (orientation: portrait) {
   .about_section_left{
@@ -630,4 +626,12 @@
   .service_cards{
     width: 70rem;
   }
+}
+
+@media only screen and (max-device-width: 1024px) and (max-device-height: 1366px) and (orientation: portrait) {
+  /* Your CSS styles for the 12.9-inch iPad Pro in portrait orientation */
+}
+
+@media only screen and (max-device-width: 1366px) and (max-device-height: 1024px) and (orientation: landscape) {
+  /* Your CSS styles for the 12.9-inch iPad Pro in landscape orientation */
 }
