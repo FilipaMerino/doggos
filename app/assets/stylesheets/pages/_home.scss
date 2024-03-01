@@ -576,11 +576,32 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
   }
-
+  .about_section_left p{
+    width: 30rem;
+  }
+  .about_info_card p {
+    width: 25rem;
+  }
+  .left_sections_parapragh{
+    width: 30rem;
+  }
+  .testimonials_section_left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
-/* Landscape orientation */
 @media only screen and (max-device-width: 1024px) and (orientation: landscape) {
-  /* Your CSS styles for iPad Mini in landscape orientation */
+
+  .service_cards{
+   width: 60rem;
+  }
+
+  .testimonial_cards{
+ flex-direction: column;
+  }
 }
