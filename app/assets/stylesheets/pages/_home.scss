@@ -668,3 +668,44 @@
     align-items: center;
   }
 }
+
+
+// GALAXY FOLD
+@media only screen and (max-width: 280px) {
+  .about_section_left p{
+  width: 15rem;
+  }
+
+  .about_info_card p{
+    width: 11rem;
+  }
+
+  .service_cards .card {
+    width: 12rem;
+  }
+  .left_sections_parapragh{
+    width: 12rem!important;
+  }
+  .horizontal_line {
+    width: 5rem;
+  }
+  .blog_section_right .card-product {
+    width: 15rem;
+}
+
+  .blog_section_right .card-product-infos p {
+    display: none;
+  }
+  .testimonials_section .card {
+    width: 16rem;
+  }
+  .question_input_box {
+    width: 15rem;
+  }
+
+  .question_input_box button {
+    width: 15rem;
+
+  }
+}
+
