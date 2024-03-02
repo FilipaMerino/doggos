@@ -630,6 +630,22 @@
 
 @media only screen and (max-device-width: 1024px) and (max-device-height: 1366px) and (orientation: portrait) {
   /* Your CSS styles for the 12.9-inch iPad Pro in portrait orientation */
+
+
+  .testimonial_cards {
+  flex-direction: column;
+  }
+  .service_cards{
+    flex-direction: column;
+  }
+
+  .service_cards .card{
+    width: 20rem;
+  }
+
+
+
+
 }
 
 @media only screen and (max-device-width: 1366px) and (max-device-height: 1024px) and (orientation: landscape) {
