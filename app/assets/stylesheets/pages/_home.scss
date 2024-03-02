@@ -709,3 +709,21 @@
   }
 }
 
+/// GALAXY A51/71
+@media only screen and (max-width: 412px) {
+  .horizontal_line {
+    width: 5rem;
+  }
+  .about_section_left p {
+    width: 15rem;
+  }
+  .about_info_card p {
+    width: 15rem;
+  }
+  .left_sections_parapragh{
+    width: 15rem;
+  }
+  .testimonials_section .card {
+    width: 20rem!important;
+  }
+}
