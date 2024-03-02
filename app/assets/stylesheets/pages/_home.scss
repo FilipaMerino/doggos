@@ -642,12 +642,10 @@
   .service_cards .card{
     width: 20rem;
   }
-
-
-
-
 }
+@media only screen and (max-width: 540px) {
 
-@media only screen and (max-device-width: 1366px) and (max-device-height: 1024px) and (orientation: landscape) {
-  /* Your CSS styles for the 12.9-inch iPad Pro in landscape orientation */
+  .testimonials_section .card{
+    width: 30rem
+  }
 }
