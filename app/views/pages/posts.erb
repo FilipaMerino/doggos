@@ -1,1 +1,13 @@
 <h1 class="blog_titles">BLOG</h1>
+
+
+<ul>
+
+  <% if @post %>
+    <% @posts.each do |post| %>
+      <li><%= post.title %></li>
+    <% end %>
+  <% end %>
+
+
+</ul>
