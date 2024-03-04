@@ -28,6 +28,14 @@ li a {
   color: $green;
 }
 
+
+.blog_go {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+
 span {
   color: $green;
   font-family: $headers-font;

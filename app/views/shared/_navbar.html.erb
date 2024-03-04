@@ -22,12 +22,14 @@
       <li>
         <%= link_to "Training Services", services_path %>
       </li>
-      <li class="button_navbar">
-        <button class="blog_go">
-          <a class="button_blog" href="">Blog</a>
-          <i class="fa-solid fa-arrow-right-long"></i>
-        </button>
-      </li>
+        <%= link_to posts_path do %>
+          <li class="button_navbar">
+            <button class="blog_go">
+              <p>Blog</p>
+              <i class="fa-solid fa-arrow-right-long"></i>
+            </button>
+          </li>
+        <% end %>
       <li>
         <label class="swap swap-rotate">
           <!-- this hidden checkbox controls the state -->
