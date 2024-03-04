@@ -1,28 +1,26 @@
 <div class="navbar">
-
-    <div class="navbar_logo_lettering">
+  <div class="navbar_logo_lettering">
+    <%= link_to root_path do %>
       <img src="assets/logo.webp" />
-      <div>
-        <span>Good Doggos</span>
-      </div>
-    </div>
+    <% end %>
+  <div>
+    <span>
+      <%= link_to "Good Doggos", root_path %>
+    </span>
+  </div>
+</div>
 
-      <div class="media_query_navbar_burger_box">
-        <img id="burger" class="burger_navbar" src="/assets/menu.png" alt="">
-      </div>
-
+  <div class="media_query_navbar_burger_box">
+    <img id="burger" class="burger_navbar" src="/assets/menu.png" alt="">
+  </div>
 
   <div class="links_fullScreen">
     <ul class="link_div">
       <li>
-        <a href="">Q&A</a>
-      </li>
-
-      <li>
-        <a href="">About Us</a>
+        <%= link_to "About Us", about_path %>
       </li>
       <li>
-        <a href="">Training Services</a>
+        <%= link_to "Training Services", services_path %>
       </li>
       <li class="button_navbar">
         <button class="blog_go">
