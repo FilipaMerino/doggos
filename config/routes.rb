@@ -3,5 +3,5 @@ Rails.application.routes.draw do
 
   get "/about", to: "pages#about"
   get "/services", to: "pages#services"
-
+  get "posts", to: "pages#posts"
 end
