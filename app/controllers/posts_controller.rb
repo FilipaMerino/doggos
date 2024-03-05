@@ -22,7 +22,7 @@ class PostsController < ApplicationController
   end
 
   def update
-    @post.update(params[post_params])
+    @post.update(post_params)
     redirect_to post_path(@post)
   end
 
@@ -30,7 +30,7 @@ class PostsController < ApplicationController
     @post.destroy
     redirect_to posts_path, status: :see_other
   end
-  
+
   private
 
   def set_post
