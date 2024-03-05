@@ -1,0 +1,17 @@
+.form_post_title{
+  color: $green;
+  font-size: 40px !important;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form_post_new{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+
+}
