@@ -1,7 +1,7 @@
-<%= form_with model: @post do |f| %>
-  <%= f.label :title %>
-  <%= f.text_field :title %>
-  <%= f.label :content %>
-  <%= f.text_field :content %>
-  <%= f.submit %>
-<% end %>
+<div class="posts_form">
+  <%= form_with model: @post, html: { class: 'form_box' } do |f| %>
+    <%= f.text_field :title, class: "form_inputs input input-bordered", placeholder: 'Title'  %>
+    <%= f.text_field :content, class: "form_inputs input textarea-bordered", placeholder: 'Content'   %>
+    <%= f.submit class:"form_button" %>
+  <% end %>
+</div>

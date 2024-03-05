@@ -8,7 +8,7 @@
   justify-content: center;
 }
 
-.horizontal_line{
+.horizontal_line {
   display: none;
 }
 
@@ -248,14 +248,13 @@
   font-size: 14px;
 }
 
-.testimonials_section .card{
+.testimonials_section .card {
   transition: none;
 }
 
-.testimonials_section .card:hover{
-    transform: none;
-  }
-
+.testimonials_section .card:hover {
+  transform: none;
+}
 
 // QUESTIONS SECTION
 
@@ -308,8 +307,8 @@
     margin-bottom: 10px;
   }
 
-  .horizontal_line{
-    border: 2px solid  $green;
+  .horizontal_line {
+    border: 2px solid $green;
     width: 10rem;
     display: flex;
     text-align: center;
@@ -331,7 +330,7 @@
     display: none;
   }
 
-  .about_info{
+  .about_info {
     flex-direction: column;
     gap: 10px;
   }
@@ -341,7 +340,7 @@
   .about_info p {
     width: 20rem;
   }
-  .about_section_left p{
+  .about_section_left p {
     margin-bottom: 10px;
   }
   // SERVICES SECTION
@@ -379,23 +378,22 @@
     margin-bottom: 20px;
   }
 
-  .blog_section button{
+  .blog_section button {
     box-shadow: none;
     transition: none;
   }
 
-  .blog_section button:hover{
+  .blog_section button:hover {
     transform: none;
   }
 
-  .card-product{
+  .card-product {
     transition: none;
   }
 
-  .card-product:hover{
+  .card-product:hover {
     transform: none;
   }
-
 
   // TESTIMONIALS
 
@@ -412,9 +410,8 @@
     align-items: center;
   }
 
-
-// ASK A QUESTION
-  .questions_section{
+  // ASK A QUESTION
+  .questions_section {
     min-height: 600px;
   }
 
@@ -473,23 +470,22 @@
     overflow: hidden;
   }
 
-  .blog_section button{
+  .blog_section button {
     box-shadow: none;
     transition: none;
   }
 
-  .blog_section button:hover{
+  .blog_section button:hover {
     transform: none;
   }
 
-  .card-product{
+  .card-product {
     transition: none;
   }
 
-  .card-product:hover{
+  .card-product:hover {
     transform: none;
   }
-
 
   // TESTIMONIALS
 
@@ -504,37 +500,36 @@
     justify-content: center;
   }
 
-
-// ASK A QUESTION
+  // ASK A QUESTION
   .question_input_box {
     width: 20rem;
   }
   .question_input_box button {
     width: 20rem;
   }
-  .left_sections_parapragh{
+  .left_sections_parapragh {
     width: 20rem;
   }
 
-  .blog_section_right .card-product{
+  .blog_section_right .card-product {
     width: 24rem;
-}
+  }
 }
 
 @media only screen and (max-width: 428px) {
-  .testimonials_section .card{
+  .testimonials_section .card {
     width: 22rem;
   }
 
-  .left_sections_parapragh{
+  .left_sections_parapragh {
     width: 20rem;
   }
 
-  .blog_section_right .card-product{
+  .blog_section_right .card-product {
     width: 22rem;
-}
+  }
 
-  .blog_section_right .card-product-infos{
+  .blog_section_right .card-product-infos {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -543,47 +538,46 @@
 }
 
 @media only screen and (max-width: 412px) {
-
-  .blog_section_right .card-product{
+  .blog_section_right .card-product {
     width: 20rem;
   }
-  .blog_section_right .card-product-infos h2{
+  .blog_section_right .card-product-infos h2 {
     font-size: 14px;
   }
-  .blog_section_right .card-product-infos p{
+  .blog_section_right .card-product-infos p {
     font-size: 11px;
   }
-  .testimonials_section .card{
+  .testimonials_section .card {
     width: 20rem;
   }
 
-  .testimonials_section .card p{
+  .testimonials_section .card p {
     font-size: 11px;
     opacity: 1;
-    }
+  }
 
-  .blog_section .left_sections_parapragh{
+  .blog_section .left_sections_parapragh {
     width: 19rem;
   }
 }
 
 @media only screen and (max-device-width: 768px) and (orientation: portrait) {
-  .about_section_left{
+  .about_section_left {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  .about_section_left p{
+  .about_section_left p {
     width: 30rem;
   }
   .about_info_card p {
     width: 25rem;
   }
-  .left_sections_parapragh{
+  .left_sections_parapragh {
     width: 30rem;
   }
-  .testimonials_section_left{
+  .testimonials_section_left {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -596,34 +590,31 @@
 }
 
 @media only screen and (max-device-width: 1024px) and (orientation: landscape) {
-
-  .service_cards{
-   width: 60rem;
+  .service_cards {
+    width: 60rem;
   }
 
-  .testimonial_cards{
+  .testimonial_cards {
     flex-direction: column;
   }
 }
 
-
 @media only screen and (max-device-width: 834px) and (max-device-height: 1194px) and (orientation: portrait) {
-  .service_cards .card{
+  .service_cards .card {
     width: 25rem;
-   }
+  }
 
-   .services_section_center {
+  .services_section_center {
     margin: 0;
-   }
+  }
 
-   .testimonial_cards .card{
+  .testimonial_cards .card {
     width: 35rem;
-   }
+  }
 }
 
-
 @media only screen and (max-device-width: 1194px) and (max-device-height: 834px) and (orientation: landscape) {
-  .service_cards{
+  .service_cards {
     width: 70rem;
   }
 }
@@ -631,38 +622,36 @@
 @media only screen and (max-device-width: 1024px) and (max-device-height: 1366px) and (orientation: portrait) {
   /* Your CSS styles for the 12.9-inch iPad Pro in portrait orientation */
 
-
   .testimonial_cards {
-  flex-direction: column;
+    flex-direction: column;
   }
-  .service_cards{
+  .service_cards {
     flex-direction: column;
   }
 
-  .service_cards .card{
+  .service_cards .card {
     width: 20rem;
   }
 }
 @media only screen and (max-width: 540px) {
-
-  .testimonials_section .card{
-    width: 30rem
+  .testimonials_section .card {
+    width: 30rem;
   }
 }
 @media only screen and (min-width: 541px) and (max-width: 720px) {
-  .about_section{
+  .about_section {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .service_cards{
+  .service_cards {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: fit-content;
   }
 
-  .testimonials_section_left{
+  .testimonials_section_left {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -670,26 +659,26 @@
 }
 // GALAXY FOLD
 @media only screen and (max-width: 280px) {
-  .about_section_left p{
-  width: 15rem;
+  .about_section_left p {
+    width: 15rem;
   }
 
-  .about_info_card p{
+  .about_info_card p {
     width: 11rem;
   }
 
   .service_cards .card {
     width: 12rem;
   }
-  .left_sections_parapragh{
-    width: 12rem!important;
+  .left_sections_parapragh {
+    width: 12rem !important;
   }
   .horizontal_line {
     width: 5rem;
   }
   .blog_section_right .card-product {
     width: 15rem;
-}
+  }
 
   .blog_section_right .card-product-infos p {
     display: none;
@@ -703,7 +692,6 @@
 
   .question_input_box button {
     width: 15rem;
-
   }
 }
 /// GALAXY A51/71
@@ -717,34 +705,31 @@
   .about_info_card p {
     width: 15rem;
   }
-  .left_sections_parapragh{
+  .left_sections_parapragh {
     width: 15rem;
   }
   .testimonials_section .card {
-    width: 20rem!important;
+    width: 20rem !important;
   }
 }
 
 @media only screen and (min-width: 413px) and (max-width: 914px) {
-
-
   .service_cards {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: fit-content;
-
   }
 }
 // NEST HUB
 @media only screen and (max-width: 1024px) and (max-height: 600px) {
   .service_cards {
     width: 60rem;
-}
+  }
 }
 // NEST HUB MAX
 @media only screen and (max-width: 1280px) and (max-height: 800px) {
-  .service_cards{
+  .service_cards {
     gap: 10px;
   }
 }

@@ -5,3 +5,5 @@ Rails.application.routes.draw do
   get "/services", to: "pages#services"
   resources :posts
 end
+
+
