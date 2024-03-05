@@ -1,17 +1,27 @@
-<h1 class="blog_titles">BLOG</h1>
+<div class="blog_design">
 
-<ul>
-  <% if @post %>
-    <% @posts.each do |post| %>
-      <li><%= post.title %></li>
+  <h1 class="blog_titles">BLOG</h1>
+  <div class="posts">
+    <% if @posts.any? %>
+      <% @posts.each do |post| %>
+        <div class="post_presentation">
+          <div class="post_styling">
+            <h2 class="post_title"><%= link_to post.title, post_path(post) %></h2>
+            <p class="post_content"><%= truncate(post.content, length: 200) %></p>
+          </div>
+        </div>
+      <% end %>
     <% end %>
-  <% end %>
-</ul>
 
-<ul>
-  <% @posts.each do |post| %>
-    <li>
-      <%= link_to post.title, post_path(post) %>
-    </li>
-  <% end %>
-</ul>
+
+  </div>
+  
+  <div>
+    <%= link_to new_post_path(@post) do %>
+      <button class="create_new_post_button">
+        Create a Post
+      </button>
+    <% end %>
+  </div>
+
+</div>
