@@ -159,7 +159,8 @@
   and (max-device-width: 768px)
   and (min-device-height: 1024px)
   and (max-device-height: 1024px)
-  and (-webkit-min-device-pixel-ratio: 1) {
+  and (-webkit-min-device-pixel-ratio: 1)
+  {
 
   .blog_design{
     padding: 5rem;
@@ -171,7 +172,24 @@
     width: 39rem;
     margin-top: 0;
    }
+}
 
 
+@media only screen
+  and (min-device-width: 820px)
+  and (max-device-width: 820px)
+  and (min-device-height: 1180px)
+  and (max-device-height: 1180px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+  .posts{
+    width: 35rem;
+    padding: 20px;
+    margin-bottom: 1px;
+  }
+
+  .create_new_post_button{
+    width: 33rem;
+    margin-top: 0;
+   }
 
 }
