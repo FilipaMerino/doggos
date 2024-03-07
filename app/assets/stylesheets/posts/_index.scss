@@ -194,7 +194,6 @@
 
 }
 
-
 @media only screen
   and (min-device-width: 1024px)
   and (max-device-width: 1024px)
@@ -211,5 +210,22 @@
   width: 39rem;
   margin-top: 0;
  }
+}
 
+@media only screen
+  and (min-device-width: 912px)
+  and (max-device-width: 912px)
+  and (min-device-height: 1368px)
+  and (max-device-height: 1368px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+    .posts{
+      margin-bottom: 2rem;
+    }
+    .create_new_post_button{
+      margin-top: 0;
+     }
+     .horizontal_line{
+      margin-bottom: 2rem;
+     }
 }
