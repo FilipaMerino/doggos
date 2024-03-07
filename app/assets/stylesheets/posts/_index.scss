@@ -229,3 +229,32 @@
       margin-bottom: 2rem;
      }
 }
+
+@media only screen
+  and (min-device-width: 280px)
+  and (max-device-width: 280px)
+  and (min-device-height: 653px)
+  and (max-device-height: 653px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+    .blog_titles{
+      font-size: 30px !important;
+    }
+
+    .posts{
+      width:15rem;
+    }
+
+    .post_content{
+      text-align: center;
+    }
+    .create_new_post_button{
+
+      width: 15rem;
+      margin-top: 0;
+     }
+
+     .horizontal_line{
+      margin-bottom: 2rem;
+    }
+     }
