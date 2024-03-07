@@ -248,8 +248,8 @@
     .post_content{
       text-align: center;
     }
-    .create_new_post_button{
 
+    .create_new_post_button{
       width: 15rem;
       margin-top: 0;
      }
@@ -258,3 +258,19 @@
       margin-bottom: 2rem;
     }
      }
+
+
+
+     @media only screen
+     and (min-device-width: 853px)
+     and (max-device-width: 853px)
+     and (min-device-height: 1280px)
+     and (max-device-height: 1280px)
+     and (-webkit-min-device-pixel-ratio: 1) {
+      .create_new_post_button{
+        margin-top: 0;
+       }
+       .horizontal_line{
+        margin-bottom: 2rem;
+      }
+    }
