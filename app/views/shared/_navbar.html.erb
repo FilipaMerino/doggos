@@ -75,37 +75,37 @@
   </div>
 </div>
 
+
 <script>
-  document.addEventListener("DOMContentLoaded", function() {
+  document.addEventListener("turbo:load", function() {
     var burgerImage = document.getElementById('burger');
     var burgerLinks = document.getElementById('burger_links');
-
-    burgerImage.addEventListener('click', function(event) {
-      // Toggle the class of the burger image
-      burgerImage.classList.toggle('burger_navbar');
-      burgerImage.classList.toggle('no_burger_navbar');
-
-      // Toggle the class of the burger links div
-      burgerLinks.classList.toggle('not_clicked');
-      burgerLinks.classList.toggle('clicked_yes');
-
-    });
-  });
-
-  document.addEventListener("DOMContentLoaded", function() {
     var closeLinks = document.getElementById('close_links');
-    var burgerImage = document.getElementById('burger');
-    var burgerLinks = document.getElementById('burger_links');
 
-    closeLinks.addEventListener('click', function(event) {
-      // Toggle the class of the burger image
-      burgerImage.classList.toggle('burger_navbar');
-      burgerImage.classList.toggle('no_burger_navbar');
+    if (burgerImage && !burgerImage.classList.contains('event-listener-added')) {
+      burgerImage.classList.add('event-listener-added');
+      burgerImage.addEventListener('click', function(event) {
+        // Toggle the class of the burger image
+        burgerImage.classList.toggle('burger_navbar');
+        burgerImage.classList.toggle('no_burger_navbar');
 
-      // Toggle the class of the burger links div
-      burgerLinks.classList.toggle('not_clicked');
-      burgerLinks.classList.toggle('clicked_yes');
+        // Toggle the class of the burger links div
+        burgerLinks.classList.toggle('not_clicked');
+        burgerLinks.classList.toggle('clicked_yes');
+      });
+    }
 
-    });
+    if (closeLinks && !closeLinks.classList.contains('event-listener-added')) {
+      closeLinks.classList.add('event-listener-added');
+      closeLinks.addEventListener('click', function(event) {
+        // Toggle the class of the burger image
+        burgerImage.classList.toggle('burger_navbar');
+        burgerImage.classList.toggle('no_burger_navbar');
+
+        // Toggle the class of the burger links div
+        burgerLinks.classList.toggle('not_clicked');
+        burgerLinks.classList.toggle('clicked_yes');
+      });
+    }
   });
 </script>
