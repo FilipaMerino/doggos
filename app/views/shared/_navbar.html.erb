@@ -1,7 +1,7 @@
 <div class="navbar">
   <div class="navbar_logo_lettering">
     <%= link_to root_path do %>
-      <img src="assets/logo.webp" />
+      <%= image_tag "logo.webp", alt: "Good Doggos" %>
     <% end %>
   <div>
     <span>
@@ -11,7 +11,7 @@
 </div>
 
   <div class="media_query_navbar_burger_box">
-    <img id="burger" class="burger_navbar" src="/assets/menu.png" alt="">
+    <%= image_tag "menu.png", alt: "Good Doggos", id:"burger", class:"burger_navbar" %>
   </div>
 
   <div class="links_fullScreen">
@@ -35,9 +35,9 @@
           <!-- this hidden checkbox controls the state -->
           <input type="checkbox" class="theme-controller" value="synthwave" />
           <!-- Portuguese FLAG -->
-          <img class="language_toggle swap-on fill-current" src="assets/flag.png" />
+          <%= image_tag "flag.png", alt: "Good Doggos",class:"language_toggle swap-on fill-current" %>
           <!-- UK FLAG -->
-          <img class="language_toggle swap-off fill-current" src="assets/uk_flag.png" />
+          <%= image_tag "uk_flag.png", alt: "Good Doggos",class:"language_toggle swap-off fill-current" %>
         </label>
       </li>
     </ul>
