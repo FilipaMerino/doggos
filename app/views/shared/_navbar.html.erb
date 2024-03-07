@@ -50,10 +50,15 @@
       </div>
       <div>
         <ul>
-          <li>Q&A</li>
-          <li>About Us</li>
-          <li>Training Services</li>
-          <li>Blog</li>
+          <li>
+            <%= link_to "About Us", about_path %>
+          </li>
+          <li>
+            <%= link_to "Training Services", services_path %>
+          </li>
+          <li>
+            <%= link_to "Blog", posts_path %>
+          </li>
           <li>
             <label class="swap swap-rotate">
               <!-- this hidden checkbox controls the state -->
