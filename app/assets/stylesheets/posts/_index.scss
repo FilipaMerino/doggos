@@ -101,12 +101,14 @@
 
 @media(max-width: 768px) {
   .posts{
-    width: 70rem;
-    padding: 0;
+    width: 25rem;
+    padding: 15px;
     margin-top: 0;
   }
   .create_new_post_button{
-    width:30rem ;
+    width:25rem ;
+    padding: 15px;
+    margin-top: 0;
   }
   .horizontal_line {
     border: 2px solid $green;
@@ -133,9 +135,21 @@
  .horizontal_line{
    margin-bottom: 1rem;
  }
+}
 
- .post_content{
- }
+@media only screen and (max-width: 412px) {
+  .posts {
+    width: 20rem;
+    padding: 1px;
+   }
+   .create_new_post_button{
+    width: 20rem;
+    margin-top: 0;
+   }
+
+   .horizontal_line{
+     margin-bottom: 1rem;
+   }
 
 
 }
