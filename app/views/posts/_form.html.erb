@@ -1,5 +1,5 @@
 <div class="posts_form">
-  <%= form_with model: @post, html: { class: 'form_box' } do |f| %>
+  <%= simple_form_for(post, html: { class: 'form_box' }) do |f| %>
     <%= f.text_field :title, class: "form_inputs input input-bordered", placeholder: 'Title'  %>
     <%= f.text_field :content, class: "form_inputs form_text input textarea-bordered", placeholder: 'Content'   %>
     <%= f.submit class:"form_button" %>
