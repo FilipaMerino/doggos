@@ -193,3 +193,23 @@
    }
 
 }
+
+
+@media only screen
+  and (min-device-width: 1024px)
+  and (max-device-width: 1024px)
+  and (min-device-height: 1366px)
+  and (max-device-height: 1366px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+
+.posts {
+  width: 40rem;
+  padding: 0;
+}
+.create_new_post_button{
+  width: 39rem;
+  margin-top: 0;
+ }
+
+}
