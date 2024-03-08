@@ -1,13 +1,15 @@
 .footer_styling{
-  position: fixed;
-  bottom: 0;
-  width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   background-color: $green;
   color: white;
   align-items: center;
   padding: 80px 40px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 9999;
 }
 
 .footer_styling h1{
