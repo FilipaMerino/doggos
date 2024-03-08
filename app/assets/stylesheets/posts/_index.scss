@@ -30,6 +30,7 @@
   -webkit-box-shadow: 5px 10px 37px 0px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 5px 10px 37px 0px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
+
 }
 
 .post_presentation:hover{
@@ -339,5 +340,20 @@
         justify-content: center;
         align-items: center;
       }
+}
 
+@media screen and (min-width: 1880px) {
+
+  .post_presentation{
+    width: 40rem!important;
+  }
+
+        }
+
+
+
+@media screen and (min-width: 771px) {
+  .post_presentation{
+    width: 40rem!important;
+  }
 }
