@@ -36,3 +36,18 @@
   flex-direction: column;
   justify-content: center;
 }
+
+.sign_up_with_google_facebook{
+  display: flex;
+  gap: 5px;
+  margin-bottom: 20px;
+}
+
+.sign_up_with_image{
+  width: 30px;
+  transition: transform 0.3s ease; /* Adding transition effect */
+}
+
+.sign_up_with_image:hover{
+  transform: scale(1.05);
+}
